@@ -2,9 +2,9 @@
 
 This project focuses on the implementation of a vector data structure in C++. It provides various operations and functionalities for working with vectors.
 
-# Project: 01-proj (Arkoined Brick Game)
+# Project: 01-proj (arkanoid Brick Game)
 
-This project is an Arkoined Brick Game that is in its early stages of development. It aims to create a fun and interactive game where players can break bricks using a paddle and a ball.
+This project is an arkanoid Brick Game that is in its early stages of development. It aims to create a fun and interactive game where players can break bricks using a paddle and a ball.
 
 # Project: 01-stack
 
@@ -50,6 +50,6 @@ The 12-expressions project deals with evaluating and manipulating arithmetic exp
 
 The 22-bricks project is a complete implementation of a brick game. It offers a fully functional and interactive game where players can break bricks using a paddle and a ball.
 
-# Project: prj-01-arkanoid (Arkoined Brick Game)
+# Project: prj-01-arkanoid (arkanoid Brick Game)
 
-The prj-01-arkanoid project is another version of the Arkoined Brick Game. It is in its early stages of development and aims to create an entertaining brick-breaking game.
+The prj-01-arkanoid project is another version of the arkanoid Brick Game. It is in its early stages of development and aims to create an entertaining brick-breaking game.
