@@ -1,0 +1,12 @@
+var color = bind blue
+var numOfBricks = bind 17*3
+var brickType = bind 1
+var brickSound = bind Sound_B1
+var brickImage = bind src/images/B02.png
+var paddleImage = bind src/images/paddle.png
+var ballImage = bind src/images/ball.png
+var textPath = bind src/fonts/rexlia_rg.otf
+var score = bind 0
+var highScore = bind 3
+var health = bind 5
+var endGame = bind false

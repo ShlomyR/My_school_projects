@@ -1,0 +1,32 @@
+var path_ball = bind src/images/ball.png
+var path_paddle = bind src/images/paddle.png
+var path_bricks = bind src/images/B01.png
+var color = bind green
+var number_of_bricks = bind 17*3
+var brick_type = bind 1
+var brick_sound = bind Sound_B1
+var window_hight = bind 800
+var window_width = bind 600
+var is_window_open = bind true
+var health = bind 5
+var score = bind 0
+
+brick color number_of_bricks brick_type brick_sound path_bricks
+
+ball path_ball
+
+paddle path_paddle
+
+window window_hight window_width
+
+game_manager init()
+
+while is_window_open != false
+{
+    game_manager pause()
+    print " { health } "
+    if health == 0 
+    {
+        game reset()
+    }
+}
