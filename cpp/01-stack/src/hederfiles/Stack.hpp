@@ -3,12 +3,12 @@
 #include <memory>
 
 template<typename T>
-class Stack_1
+class Stack
 {
 public:
-    Stack_1(int);
-    Stack_1(Stack_1 const&);
-    Stack_1<T>& operator=(Stack_1<T> const&);
+    Stack(int);
+    Stack(Stack const&);
+    Stack<T>& operator=(Stack<T> const&);
     T& operator[](size_t);
 
     void push(T);

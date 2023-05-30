@@ -7,14 +7,14 @@
 
 
 template<typename T>
-Stack_1<T>::Stack_1(int size)
+Stack<T>::Stack(int size)
 :   m_arr(new T[size])
 ,   m_capacity(size)
 ,   m_cp(0)
 {}
 
 template<typename T>
-Stack_1<T>::Stack_1(Stack_1 const &other)
+Stack<T>::Stack(Stack const &other)
 :   m_arr(new T[other.m_capacity])
 ,   m_capacity(other.m_capacity)
 ,   m_cp(0)
@@ -28,7 +28,7 @@ Stack_1<T>::Stack_1(Stack_1 const &other)
 }
 
 template<typename T>
-Stack_1<T> &Stack_1<T>::operator=(Stack_1<T> const &other)
+Stack<T> &Stack<T>::operator=(Stack<T> const &other)
 {
     // copy(other.m_capacity);
     m_arr.reset(new T[other.m_capacity]);
@@ -44,45 +44,45 @@ Stack_1<T> &Stack_1<T>::operator=(Stack_1<T> const &other)
 }
 
 template<typename T>
-T &Stack_1<T>::operator[](size_t index)
+T &Stack<T>::operator[](size_t index)
 {
     return m_arr[index];
 }
 
 template<typename T>
-void Stack_1<T>::push(T value)
+void Stack<T>::push(T value)
 {
     m_arr[m_cp] = value;
     ++m_cp;
 }
 
 template<typename T>
-T Stack_1<T>::top()
+T Stack<T>::top()
 {
     return m_arr[m_cp - 1];
 }
 
 template<typename T>
-T Stack_1<T>::size()
+T Stack<T>::size()
 {
     return m_cp;
 }
 
 template<typename T>
-T Stack_1<T>::capacity()
+T Stack<T>::capacity()
 {
     return m_capacity;
 }
 
 template<typename T>
-void Stack_1<T>::pop()
+void Stack<T>::pop()
 {
     m_arr[m_cp] = 0;
     m_arr[--m_cp];
 }
 
 template<typename T>
-bool Stack_1<T>::empty()
+bool Stack<T>::empty()
 {
     return m_cp == 0;
 }
