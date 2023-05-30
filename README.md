@@ -8,7 +8,7 @@ This project is an arkanoid Brick Game that is in its early stages of developmen
 
 # Project: 01-stack
 
-The 01-stack project involves the implementation of a stack data structure in C++. It provides a stack class with essential operations like push, pop, and peek.
+The 01-stack project involves the implementation of a template stack data structure in C++. It provides a stack class with essential operations like push, pop, and so on.
 
 # Project: 02-rational
 
@@ -29,14 +29,15 @@ The 05-Matrix project focuses on matrix operations in C++. It provides a matrix 
 # Project: 06-Function_Template
 
 In the 06-Function_Template project, function templates are utilized in C++. It demonstrates the usage of generic functions that can work with different data types.
+In the end it became a play ground for template functions :).
 
 # Project: 07-class-template
 
-The 07-class-template project demonstrates the concept of class templates in C++. It shows how to create a generic class that can handle different data types.
+The 07-class-template project demonstrates the concept of class templates in C++. It shows how to create a generic class that can handle different data types in linked list.
 
 # Project: 10-massege
 
-The 10-massege project involves a messaging system implementation in C++. It provides functionalities for sending and receiving messages between users.
+The 10-massage project involves a simple polymorphism concept.
 
 # Project: 11-TinyVirtualMachine
 
