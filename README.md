@@ -54,3 +54,5 @@ The 22-bricks project is a complete implementation of a brick game. It offers a 
 # Project: prj-01-arkanoid (arkanoid Brick Game)
 
 The prj-01-arkanoid project is another version of the arkanoid Brick Game. It is in its early stages of development and aims to create an entertaining brick-breaking game.
+
+Happy coding!
